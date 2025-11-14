@@ -1,0 +1,62 @@
+/* Base theme variables that don't change */
+:root {
+  --background: #000000;
+  --text: #ffffff;
+}
+
+/* Theme Classes */
+[data-theme="amber"] {
+  --matrix-color: #ffb000;
+  --matrix-dark: #3d2800;
+  --matrix-glow: #ffd700;
+  --matrix-color-50: rgba(255, 176, 0, 0.5);
+  --matrix-color-30: rgba(255, 176, 0, 0.3);
+  --matrix-color-20: rgba(255, 176, 0, 0.2);
+  --matrix-color-10: rgba(255, 176, 0, 0.1);
+}
+
+[data-theme="ruby"] {
+  --matrix-color: #ff3366;
+  --matrix-dark: #330011;
+  --matrix-glow: #ff6699;
+  --matrix-color-50: rgba(255, 51, 102, 0.5);
+  --matrix-color-30: rgba(255, 51, 102, 0.3);
+  --matrix-color-20: rgba(255, 51, 102, 0.2);
+  --matrix-color-10: rgba(255, 51, 102, 0.1);
+}
+
+[data-theme="emerald"] {
+  --matrix-color: #00ff9d;
+  --matrix-dark: #003322;
+  --matrix-glow: #33ffbb;
+  --matrix-color-50: rgba(0, 255, 157, 0.5);
+  --matrix-color-30: rgba(0, 255, 157, 0.3);
+  --matrix-color-20: rgba(0, 255, 157, 0.2);
+  --matrix-color-10: rgba(0, 255, 157, 0.1);
+}
+
+[data-theme="sapphire"] {
+  --matrix-color: #00a8ff;
+  --matrix-dark: #002233;
+  --matrix-glow: #33bbff;
+  --matrix-color-50: rgba(0, 168, 255, 0.5);
+  --matrix-color-30: rgba(0, 168, 255, 0.3);
+  --matrix-color-20: rgba(0, 168, 255, 0.2);
+  --matrix-color-10: rgba(0, 168, 255, 0.1);
+}
+
+[data-theme="violet"] {
+  --matrix-color: #9d00ff;
+  --matrix-dark: #1a0033;
+  --matrix-glow: #b366ff;
+  --matrix-color-50: rgba(157, 0, 255, 0.5);
+  --matrix-color-30: rgba(157, 0, 255, 0.3);
+  --matrix-color-20: rgba(157, 0, 255, 0.2);
+  --matrix-color-10: rgba(157, 0, 255, 0.1);
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease, box-shadow 0.3s ease;
+}
